@@ -3,6 +3,7 @@ class ergroupkeys {
   $user_name = $operatingsystem ? {
     'CentOS' => 'root',
     'RedHat' => 'ec2-user',
+    'Ubuntu' => 'ubuntu',
   }
 
   Ssh_authorized_key {
